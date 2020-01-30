@@ -1,0 +1,18 @@
+[package]
+name = "qrmaster"
+version = "0.1.0"
+authors = ["Albrecht <14820950+weichweich@users.noreply.github.com>"]
+edition = "2018"
+description = """
+A simple command line tool to create and read qr codes.
+"""
+
+
+[dependencies]
+qrcode = "0.11"
+clap = "2.33"
+image = "0.22"
+stderrlog = "0.4"
+
+[dependencies.bardecoder]
+path = "../bardecoder"
