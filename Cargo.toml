@@ -15,4 +15,5 @@ image = "0.22"
 stderrlog = "0.4"
 
 [dependencies.bardecoder]
-path = "../bardecoder"
+git = "https://github.com/weichweich/bardecoder.git"
+branch = "binary_output"
